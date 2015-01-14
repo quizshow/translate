@@ -6,7 +6,8 @@ describe(".create", function() {
     beforeEach(function() {
         translations = {
         };
-    })
+    });
+
     it("should return a function", function() {
         var t = translate.create(translations);
         assert.equal(typeof t, "function");

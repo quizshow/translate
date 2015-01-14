@@ -7,12 +7,12 @@ module.exports.create = function( translations ) {
             return result;
         }
 
-        Object.keys( placeholders ).forEach( function( key ) {
-            var value = placeholders[key];
+        Object.keys( placeholders ).forEach( function( index ) {
+            var value = placeholders[index];
             if (!placeholders.escaped) {
                 value = escape(value);
             }
-            result = result.replace( new RegExp( "\{\{" + key + "\}\}", "g"), value);
+            result = result.replace( new RegExp( "\{\{" + index + "\}\}", "g"), value);
         });
         return result;
     };
