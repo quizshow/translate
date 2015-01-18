@@ -26,3 +26,5 @@ var translate = Translate.create(translations);
 translate("hello"); // "Hello!"
 translate("hello_name", {name: "Horst"}); // "Hello Horst!"
 ```
+
+[![Build Status](https://travis-ci.org/quizshow/translate.svg)](https://travis-ci.org/quizshow/translate)
