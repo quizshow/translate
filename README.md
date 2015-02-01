@@ -2,6 +2,9 @@
 This module provides you an easy way to translate strings.
 Just pass in an object to .create with all your locales + translations and you will get a function to translate strings.
 
+# Installation
+`npm install simple-translate`
+
 # Usage
 ```js
 var Translate = require("this-translate-module");
