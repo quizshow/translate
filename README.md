@@ -7,7 +7,7 @@ Just pass in an object to .create with all your locales + translations and you w
 
 # Usage
 ```js
-var Translate = require("this-translate-module");
+var Translate = require("simple-translate");
 var translations = {
     "en": {
         "hello": "Hello!",
